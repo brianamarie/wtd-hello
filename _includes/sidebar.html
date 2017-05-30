@@ -98,8 +98,8 @@
     </table>
   </div>
   <table>
-  {% tablerow post in collection.collection cols:7 %}
-    {{ post.day }}
+  {% tablerow post in paginator.posts cols:7 %}
+    {{ post.title }}
   {% endtablerow %}
 </table>
   </div>
