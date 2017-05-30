@@ -51,7 +51,7 @@ html {
 	margin: 20px auto;
 	position: relative;
 	text-align: center;
-	width: 216px;
+	width: 70%;
 }
 
 #month {
@@ -60,7 +60,7 @@ html {
 	height: 30px;
 	line-height: 30px;
 	text-shadow: 0 -1px 0 #878787;
-	width: 216px;
+	width: 70%;
 }
 
 #days {
@@ -71,17 +71,17 @@ html {
 table.days {
 	color: #888888;
 	font-size: 11px;
-	width: 216px;
+	width: 70%;
 }
 
 table.day td, table.days td {
-	width: 30px;
+	width: 10%;
 }
 
 table.day td {
 	background: #f4f0f7;
 	color: #878787;
-	height: 29px;
+	height: 9%;
 	box-shadow: 0 -1px 0 white;
 }
 
