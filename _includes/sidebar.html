@@ -81,11 +81,13 @@
             {% endif %}
         {% endfor %}
 
+        <td>
         {% for post in site.posts %}
             {% if post.day == 9 %}
-            <td><a href="{{ site.baseurl }}{{ post.url }}" class="date">9</a></td>
+            <a href="{{ site.baseurl }}{{ post.url }}" class="date">9</a>
             {% endif %}
         {% endfor %}
+        </td>
 
         {% for post in site.posts %}
             {% if post.day == 10 %}
@@ -116,6 +118,7 @@
             <td><a href="{{ site.baseurl }}{{ post.url }}" class="date">14</a></td>
             {% endif %}
         {% endfor %}
+
   		</tr>
   		<tr>
   			<td>15</td>
