@@ -68,10 +68,13 @@ html {
 	-webkit-box-shadow: 0 1px 0 #aaaaaa;
 }
 
+table {
+	width: 100%
+}
+
 table.days {
 	color: #888888;
 	font-size: 11px;
-	width: 70%;
 }
 
 table.day td, table.days td {
