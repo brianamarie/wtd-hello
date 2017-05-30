@@ -11,6 +11,7 @@ tagline:          'Git through Hacktoberfest'
 description:      "Daily tips, tricks, and insights from GitHub's Training team"
 url:              https://brianamarie.github.io/wtd-hello/
 baseurl:          /wtd-hello/
+future: false
 
 author:
   name:           'brianamarie'
