@@ -1,0 +1,105 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+.clasp {
+	background: #aaaaaa;
+	border: 1px solid #999999;
+	border-radius: 4px;
+	box-shadow: 0 -1px 5px rgba(0,0,0,0.4), inset -1px 1px 2px white;
+	display: block;
+	height: 16px;
+	position: absolute;
+	top: -5px;
+	width: 4px;
+	z-index: 2000;
+}
+.clasp.hole-left {
+	left: 9px;
+}
+.clasp.hole-right {
+	right: 9px;
+}
+
+.hole {
+	background: #99ccff;
+	border-radius: 8px;
+	box-shadow: 0 -1px 0 black, inset 0 0 20px #878787;
+	display: block;
+	height: 8px;
+	position: absolute;
+	top: 8px;
+	width: 8px;
+}
+
+.hole-left {
+	left: 8px;
+}
+.hole-right {
+	right: 8px;
+}
+
+#calendar {
+	background: #e4e0e7;
+	box-shadow: 0 0 20px #878787;
+	height: 208px;
+	margin: 20px auto;
+	position: relative;
+	text-align: center;
+	width: 216px;
+}
+
+#month {
+	background: linear-gradient(#bcde4b, #8bc620);
+	color: white;
+	height: 30px;
+	line-height: 30px;
+	text-shadow: 0 -1px 0 #878787;
+	width: 216px;
+}
+
+#days {
+	background: linear-gradient(#f4f4f4, #ebebeb);
+	-webkit-box-shadow: 0 1px 0 #aaaaaa;
+}
+
+table.days {
+	color: #888888;
+	font-size: 11px;
+	width: 216px;
+}
+
+table.day td, table.days td {
+	width: 30px;
+}
+
+table.day td {
+	background: #f4f0f7;
+	color: #878787;
+	height: 29px;
+	box-shadow: 0 -1px 0 white;
+}
+
+table.day td.old-month {
+	color: #aaaaaa;
+}
+
+table.day td:hover {
+  background: #e9e9ee;
+  cursor: pointer;
+}
+
+table.day td.selected {
+	background: linear-gradient(#bcde4b, #8bc620);
+	color: white;
+	text-shadow: 0 -1px 0 #878787;
+}
+
+table.day td.appoint {
+	border-bottom: 2px solid #99ccff;
+}
