@@ -30,13 +30,34 @@
   	</div>
   	<table class="day">
   		<tr>
-  			<td>1</td>
-  			<td>2</td>
-  			<td>3</td>
-  			<td>4</td>
-  			<td>5</td>
-  			<td>6</td>
-  			<td>7</td>
+        {% for post in site.posts %}
+            {% if {{ post.day }} == 1 %}
+            <a href="{{ post.url }}"><td>1</td></a>
+        {% endfor %}
+        {% for post in site.posts %}
+            {% if {{ post.day }} == 2 %}
+            <a href="{{ post.url }}"><td>2</td></a>
+        {% endfor %}
+        {% for post in site.posts %}
+            {% if {{ post.day }} == 3 %}
+            <a href="{{ post.url }}"><td>3</td></a>
+        {% endfor %}
+        {% for post in site.posts %}
+            {% if {{ post.day }} == 4 %}
+            <a href="{{ post.url }}"><td>4</td></a>
+        {% endfor %}
+        {% for post in site.posts %}
+            {% if {{ post.day }} == 5 %}
+            <a href="{{ post.url }}"><td>5</td></a>
+        {% endfor %}
+        {% for post in site.posts %}
+            {% if {{ post.day }} == 6 %}
+            <a href="{{ post.url }}"><td>6</td></a>
+        {% endfor %}
+        {% for post in site.posts %}
+            {% if {{ post.day }} == 7 %}
+            <a href="{{ post.url }}"><td>7</td></a>
+        {% endfor %}
   		</tr>
   		<tr>
   			<td>8</td>
@@ -100,15 +121,12 @@
     <container>
       <div class="day">
         <row>
-          <tr>
         {% for post in site.posts %}
           <div class="col-xs-1">
-            <td>
+            {% if {{ post.day }} == 1 %}
             <a href="{{ post.url }}">{{ post.day }}</a>
-          </td>
           </div>
         {% endfor %}
-      </tr>
         </row>
       </div>
     </container>
