@@ -51,13 +51,13 @@
 
         {% for post in site.posts %}
             {% if post.day == 4 %}
-            <td><a href="{{ base.url }} {{ post.url }}" class="date">4</a></td>
+            <td><a href="{{ site.baseurl }} {{ post.url }}" class="date">4</a></td>
             {% endif %}
         {% endfor %}
 
         {% for post in site.posts %}
             {% if post.day == 5 %}
-            <td><a href="{{ baseurl }} {{ post.url }}" class="date">5</a></td>
+            <td><a href="{{ site.baseurl }}{{ post.url }}" class="date">5</a></td>
             {% endif %}
         {% endfor %}
 
