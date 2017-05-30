@@ -63,7 +63,7 @@
 
         {% for post in site.posts %}
             {% if post.day == 6 %}
-            <td><a href="{{ base.url }} {{ post.url }}" class="date">6</a></td>
+            <a href="{{ base.url }} {{ post.url }}" class="date"><div><td>6</td></div></a>
             {% endif %}
         {% endfor %}
 
