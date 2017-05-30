@@ -70,12 +70,12 @@ html {
 
 table {
 	width: 100%;
-	font-size: .35em;
+	font-size: .5em;
 }
 
 table.days {
 	color: #888888;
-	font-size: 11px;
+	font-size: .35em;
 }
 
 table.day td, table.days td {
