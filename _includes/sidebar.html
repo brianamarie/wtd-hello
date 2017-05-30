@@ -28,11 +28,12 @@
   			</tr>
   		</table>
   	</div>
+
   	<table class="day">
   		<tr>
         {% for post in site.posts %}
             {% if post.day == 1 %}
-            <a href="{{ post.url }}"><td>1</td></a>
+            <a href="{{ post.url }}"><div><td>1</td></div></a>
             {% endif %}
         {% endfor %}
 
