@@ -77,6 +77,34 @@
   	</table>
   </div>
 
+
+  <div id="calendar">
+  <div class="clasp hole-left"></div>
+  <div class="clasp hole-right"></div>
+  <div class="hole hole-left"></div>
+  <div class="hole hole-right"></div>
+  <div id="month">May 2017</div>
+  <div id="days">
+    <table class="days">
+      <tr>
+        <td>SUN</td>
+        <td>MON</td>
+        <td>TUE</td>
+        <td>WED</td>
+        <td>THU</td>
+        <td>FRI</td>
+        <td>SAT</td>
+      </tr>
+    </table>
+  </div>
+  <table>
+  {% tablerow post in collection.posts cols:7 %}
+    {{ post.date }}
+  {% endtablerow %}
+</table>
+  </div>
+
+
     <nav class="sidebar-nav">
       <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
 
