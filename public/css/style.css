@@ -69,7 +69,8 @@ html {
 }
 
 table {
-	width: 100%
+	width: 100%;
+	font-size: .35em;
 }
 
 table.days {
