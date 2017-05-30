@@ -6,15 +6,15 @@ highlighter:      rouge
 permalink:        pretty
 
 # Setup
-title:            How to Git - Write the Docs Portland
-tagline:          'Welcome to our class'
-description:      'An introductory project where attendees get to contribute to a class directory'
-url:              https://githubschool.github.io/wtd-hello/
+title:            GitHub Training Hacktoberfest
+tagline:          'Git through Hacktoberfest'
+description:      'Daily tips, tricks, and insights from GitHub's Training team'
+url:              https://brianamarie.github.io/wtd-hello/
 baseurl:          /wtd-hello/
 
 author:
-  name:           'beardofedu'
-  url:            https://twitter.com/beardofedu
+  name:           'brianamarie'
+  url:            https://twitter.com/brianamarie132
 
 paginate:         5
 
@@ -22,4 +22,4 @@ paginate:         5
 version:          2.1.0
 
 github:
-  repo:           https://github.com/githubschool/wtd-hello
+  repo:           https://github.com/brianamarie/wtd-hello
