@@ -47,7 +47,6 @@ html {
 #calendar {
 	background: #e4e0e7;
 	box-shadow: 0 0 20px #878787;
-	height: 208px;
 	margin: 20px auto;
 	position: relative;
 	text-align: center;
@@ -55,7 +54,7 @@ html {
 }
 
 #month {
-	background: linear-gradient(#bcde4b, #8bc620);
+	background: linear-gradient(#e63900, #cc3300);
 	color: white;
 	height: 30px;
 	line-height: 30px;
