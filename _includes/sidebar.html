@@ -33,57 +33,70 @@
   		<tr>
         {% for post in site.posts %}
             {% if post.day == 1 %}
-            <a href="{{ site.baseurl }}{{ post.url }}" class="date"><td>1</a></td>
-            {% else %}
+              <a href="{{ site.baseurl }}{{ post.url }}" class="date">
+            {% endif %}
             <td>1</td>
+            {% if post.day == 1 %}
+              </a>
             {% endif %}
         {% endfor %}
 
         {% for post in site.posts %}
             {% if post.day == 2 %}
-            <a href="{{ site.baseurl }}{{ post.url }}" class="date"><td>2</a></td>
-            {% else %}
+              <a href="{{ site.baseurl }}{{ post.url }}" class="date">
+            {% endif %}
             <td>2</td>
+            {% if post.day == 2 %}
+              </a>
             {% endif %}
         {% endfor %}
 
         {% for post in site.posts %}
             {% if post.day == 3 %}
-            <td><a href="{{ site.baseurl }}{{ post.url }}" class="date">3</a></td>
-            {% else %}
+              <a href="{{ site.baseurl }}{{ post.url }}" class="date">{% endif %}
             <td>3</td>
+            {% if post.day == 3 %}
+              </a>
             {% endif %}
         {% endfor %}
 
         {% for post in site.posts %}
             {% if post.day == 4 %}
-            <td><a href="{{ site.baseurl }}{{ post.url }}" class="date">4</a></td>
-            {% else %}
-            <td>4</td>
+              <a href="{{ site.baseurl }}{{ post.url }}" class="date">4</a></td>
+            {% endif %}
+              <td>4</td>
+            {% if post.day == 4 %}
+              </a>
             {% endif %}
         {% endfor %}
 
         {% for post in site.posts %}
             {% if post.day == 5 %}
-            <td><a href="{{ site.baseurl }}{{ post.url }}" class="date">5</a></td>
-            {% else %}
+              <a href="{{ site.baseurl }}{{ post.url }}" class="date">5</a></td>
+            {% endif %}
             <td>5</td>
+            {% if post.day == 5 %}
+              </a>
             {% endif %}
         {% endfor %}
 
         {% for post in site.posts %}
             {% if post.day == 6 %}
-            <td><a href="{{ site.baseurl }}{{ post.url }}" class="date">6</a></td>
-            {% else %}
+              <a href="{{ site.baseurl }}{{ post.url }}" class="date">6</a></td>
+            {% endif %}
             <td>6</td>
+            {% if post.day == 6 %}
+              </a>
             {% endif %}
         {% endfor %}
 
         {% for post in site.posts %}
             {% if post.day == 7 %}
-            <td><a href="{{ site.baseurl }}{{ post.url }}" class="date">7</a></td>
-            {% else %}
+              <a href="{{ site.baseurl }}{{ post.url }}" class="date">7</a></td>
+            {% endif %}
             <td>7</td>
+            {% if post.day == 7 %}
+              </a>
             {% endif %}
         {% endfor %}
 
