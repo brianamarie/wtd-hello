@@ -113,41 +113,6 @@
   </div>
 
 
-  <div id="calendar">
-  <div class="clasp hole-left"></div>
-  <div class="clasp hole-right"></div>
-  <div class="hole hole-left"></div>
-  <div class="hole hole-right"></div>
-  <div id="month">May 2017</div>
-  <div id="days">
-    <table class="days">
-      <tr>
-        <td>SUN</td>
-        <td>MON</td>
-        <td>TUE</td>
-        <td>WED</td>
-        <td>THU</td>
-        <td>FRI</td>
-        <td>SAT</td>
-      </tr>
-    </table>
-  </div>
-    <container>
-      <div class="day">
-        <row>
-        {% for post in site.posts %}
-          <div class="col-xs-1">
-            {% if {{ post.day }} == 1 %}
-            <a href="{{ post.url }}">{{ post.day }}</a>
-            {% endif %}
-          </div>
-        {% endfor %}
-        </row>
-      </div>
-    </container>
-  </div>
-
-
     <nav class="sidebar-nav">
       <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
 
