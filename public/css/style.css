@@ -88,6 +88,10 @@ table.day td {
 	box-shadow: 0 -1px 0 white;
 }
 
+a {
+	color: #878787;
+}
+
 table.day td.old-month {
 	color: #aaaaaa;
 }
