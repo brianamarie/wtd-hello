@@ -75,13 +75,47 @@
 
   		</tr>
   		<tr>
-  			<td>8</td>
-  			<td>9</td>
-  			<td>10</td>
-  			<td>11</td>
-  			<td>12</td>
-  			<a href="https://brianamarie.github.io/wtd-hello//2017/05/13/next-post/"><td>13</td></a>
-  			<td>14</td>
+        {% for post in site.posts %}
+            {% if post.day == 8 %}
+            <td><a href="{{ site.baseurl }}{{ post.url }}" class="date">8</a></td>
+            {% endif %}
+        {% endfor %}
+
+        {% for post in site.posts %}
+            {% if post.day == 9 %}
+            <td><a href="{{ site.baseurl }}{{ post.url }}" class="date">9</a></td>
+            {% endif %}
+        {% endfor %}
+
+        {% for post in site.posts %}
+            {% if post.day == 10 %}
+            <td><a href="{{ site.baseurl }}{{ post.url }}" class="date">10</a></td>
+            {% endif %}
+        {% endfor %}
+
+        {% for post in site.posts %}
+            {% if post.day == 11 %}
+            <td><a href="{{ site.baseurl }}{{ post.url }}" class="date">11</a></td>
+            {% endif %}
+        {% endfor %}
+
+        {% for post in site.posts %}
+            {% if post.day == 12 %}
+            <td><a href="{{ site.baseurl }}{{ post.url }}" class="date">12</a></td>
+            {% endif %}
+        {% endfor %}
+
+        {% for post in site.posts %}
+            {% if post.day == 13 %}
+            <td><a href="{{ site.baseurl }}{{ post.url }}" class="date">13</a></td>
+            {% endif %}
+        {% endfor %}
+
+        {% for post in site.posts %}
+            {% if post.day == 14 %}
+            <td><a href="{{ site.baseurl }}{{ post.url }}" class="date">14</a></td>
+            {% endif %}
+        {% endfor %}
   		</tr>
   		<tr>
   			<td>15</td>
