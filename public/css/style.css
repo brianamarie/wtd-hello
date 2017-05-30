@@ -51,7 +51,7 @@ html {
 	margin: 20px auto;
 	position: relative;
 	text-align: center;
-	width: 70%;
+	width: 100%;
 }
 
 #month {
@@ -60,7 +60,7 @@ html {
 	height: 30px;
 	line-height: 30px;
 	text-shadow: 0 -1px 0 #878787;
-	width: 70%;
+	width: 100%;
 }
 
 #days {
